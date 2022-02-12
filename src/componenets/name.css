@@ -1,136 +1,455 @@
-.title{
-    font-family: 'DM Serif Display', serif;
-    font-size: 70px;
-    padding: 130px 0px 30px 300px;
-    color: black;
-
-}
-strong{
-    background-color: rgba(107, 253, 253,0.5);
-    color:blue;
-}
-.icon{
-    padding:15px 0px 20px 150px;
-    size:50px;
-
-}
-.wrap{
-    align-items: center;
+* {
+    margin :0;
+    padding: 0;
 }
 
-.desc{
-     font-family: 'Roboto', sans-serif;
-     font-size : 16px;
-     padding:30px 0px 20px 300px;
-     margin-right: 600px;
-     font-weight: bold;
-}
 .top {
-    background-color: rgba(36, 89, 119, 0.2);
-    padding: 15px 0px 15px 150px;
+    
+       padding: 20px 0px 25px 30px;
+        background-color: rgba(51, 92, 116, 0.2);
+
+    
 }
+
 span:nth-child(2){
-    padding-left: 450px;
+    padding-left: 80px;
 
 }
 
  .top ul span{
-     margin-left: 50px;
+     margin-left: 20px;
      font-family: 'Roboto', sans-serif;;
      font-weight: bolder;
-     font-size:16px;
-    
+     font-size:14px;
  }
 
-ul{
-    margin-top: 20px;
-}
+ 
 
-
-
-.circle{
-    height: 91px;
-    width:91px;
-    background-color: rgb(30, 59, 223);
-    border-radius: 50%;
-    margin-left: 300px;
-    border-color: rgb(11, 45, 194)
-}
-
-.header {
-    margin:125px 0px 30px ;
-    color: black;
-    font-size:70px;
+ .title{
     font-family: 'DM Serif Display', serif;
-    padding: 40px 0px 15px 10px;
+    font-size: 38px;
+    padding: 100px 28px 50px 30px;
+    color: black;
+
+}
+
+
+.desc{
+    font-family: 'Roboto', sans-serif;
+    font-size : 15px;
+    padding:30px 28px 35px 30px;
+    margin-Right:0px;
+    font-weight: bold;
+}
+
+
+strong{
+    background-color: rgba(107, 253, 253,0.7);
+    color:blue;
+}
+
+
+.heade {
+    margin:0px 0px 0px ;
+    color: black;
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    padding: 18px 40px 60px 5px;
     transition: transform .1s;
 }
 
 
-.header:hover{
+.heade:hover{
     transform: scale(0.9);
 }
-.sk{
-    font-family: 'DM Serif Display', serif;
-    font-size: 35px;
-    padding: 100px 0px 0px 300px;
-    color: black;
 
+.cover .circle{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(27, 53, 202);
+    border-radius: 50%;
+    margin-left: 30px;
+    
 }
+
+.pro .circle{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(165, 206, 71);
+    border-radius: 50%;
+    margin-left: 30px;
+    
+}
+
+.button{
+    padding: 40px 0px 30px 30px;
+}
+
+
 
 .list ,.Skills{
     font-family: 'Roboto', serif;
     font-size: 15px;
     font-weight: bold;
-    padding: 90px 0px 20px 300px;
+    padding: 12px 90px 0px 30px;
     color: black;
     list-style: none;
-    line-height: 2.0;
+    line-height:3.0;
    
 
 }
 
 *li{
-    font-size: 15px;
+    font-size: 5px;
     list-style: none;
     
 }
 
-.button{
-    padding: 20px 0px 0px 300px;
+.kat{
+    font-family: 'Roboto', sans-serif;
+    font-size : 6px;
+    padding:15px 0px 40px 25px;
+    font-weight: bold;
+
 }
+
+
+.description{
+    padding:10px 18px 10px 18px;
+    text-align: center;
+    font-size: 18px;
+
+    padding-bottom:30px;
+}
+
+
+
+.header p{
+    
+    font-family:'DM Serif Display', serif ;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0px 30px 0px;
+}
+
+.but{
+    text-align: center;
+    padding-bottom: 18px;
+
+    
+
+}
+
 
 
 .ske{
     font-family: 'DM Serif Display', serif;
-    font-size: 25px;
-    padding: 10px 0px 20px 0px;
+    font-size: 20px;
+    padding: 0px 0px 20px 0px;
     color: black;
 
 }
 
+.sub{
+    font-size: 13px;
+    padding: 0px 1px 15px 0px;
+
+}
+
 .pro{
+    padding-bottom: 20px;
+}
+
+.mat{
+    padding-left: 40px;
     padding-bottom: 80px;
+    padding-top: 30px;
 }
 
-.kat{
-    font-family: 'Roboto', sans-serif;
-    font-size : 18px;
-    padding:30px 0px 20px 300px;
-    font-weight: bold;
+.sk{
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    padding: 30px 90px 40px 30px;
+    color: black;
 
 }
-footer{
-    background-color: black;
-}
 
+
+
+
+  .follow p{
+    padding:10px 0px 10px 180px;
+    font-size: 15px;
+    color:white;
+    }
+    
+    .social p{
+    
+    padding:10px 0px 10px 170px;
+    font-size: 15px;
+    color: rgb(156,122,122);
+    }
+    
+    
+    .navi nav i{
+        size:20px;
+    
+        padding:30px 0px 90px 82px;
+    }
+    
+    .dark{
+        background-color: black;
+        padding-top: 20px;
+    } 
+
+
+    
 nav{
     display: inline-block;
     margin: auto;
-  padding: 10px;
-  transition:transform .2s;
+    padding: 0px;
+   transition:transform .2s;
+}
+nav .icon{
+   padding:30px 25px 90px 30px;
+
 }
 
 nav:hover{
-    transform: scale(0.85);
+   transform: scale(0.85);
 }
+
+
+
+@media only screen and (min-width:1000px){
+
+
+    * {
+        margin:0 ;
+        padding:0;
+      }
+      .title{
+          font-family: 'DM Serif Display', serif;
+          font-size: 80px;
+          padding: 150px 0px 40px 330px;
+          color: black;
+      
+      }
+      strong{
+          background-color: rgba(107, 253, 253,0.5);
+          color:blue;
+      }
+      .icon{
+          padding:15px 0px 20px 150px;
+          size:50px;
+      
+      }
+     
+      
+      .desc{
+           font-family: 'Roboto', sans-serif;
+           font-size : 19px;
+           padding:30px 0px 35px 330px;
+           margin-right: 600px;
+           font-weight: bold;
+      }
+      .top {
+          background-color: rgba(36, 89, 119, 0.2);
+          padding: 20px 0px 28px 200px;
+      }
+      span:nth-child(2){
+          padding-left: 500px;
+      
+      }
+      
+       .top ul span{
+           margin-left: 50px;
+           font-family: 'Roboto', sans-serif;;
+           font-weight: bolder;
+           font-size:18px;
+          
+       }
+      
+      ul{
+          margin-top: 20px;
+      }
+      
+      
+      
+      
+      
+      .heade {
+          margin:125px 0px 30px ;
+          color: black;
+          font-size:80px;
+          font-family: 'DM Serif Display', serif;
+          padding: 40px 0px 60px 10px;
+          transition: transform .1s;
+      }
+      
+      
+      .heade:hover{
+          transform: scale(0.9);
+      }
+
+
+
+      .cover .circle{
+        height: 95px;
+        width: 95px;
+        background-color: rgb(27, 53, 202);
+        border-radius: 50%;
+        margin-left: 330px;
+        
+    }
+    
+    .pro .circle{
+        height: 95px;
+        width: 95px;
+        background-color: rgb(165, 206, 71);
+        border-radius: 50%;
+        margin-left: 330px;
+        
+    }
+
+
+    
+    
+
+
+      .sk{
+          font-family: 'DM Serif Display', serif;
+          font-size: 40px;
+          padding: 100px 0px 0px 330px;
+          color: black;
+      
+      }
+      
+      .list ,.Skills{
+          font-family: 'Roboto', serif;
+          font-size: 17px;
+          font-weight: bold;
+          padding: 60px 0px 0px 330px;
+          color: black;
+          list-style: none;
+          line-height: 2.3;
+         
+      
+      }
+      
+      *li{
+          font-size: 18px;
+          list-style: none;
+          
+      }
+      
+      .button{
+          padding: 80px 0px 0px 330px;
+      }
+      
+      
+      .ske{
+          font-family: 'DM Serif Display', serif;
+          font-size: 25px;
+          padding: 10px 0px 20px 0px;
+          color: black;
+      
+      }
+
+      .sub{
+        font-size: 15px;
+        padding: 10px 0px 0px 5px;
+        line-height: 1.8;
+    
+    }
+    
+      
+      .pro{
+          padding-bottom: 60px;
+      }
+      
+      .kat{
+          font-family: 'Roboto', sans-serif;
+          font-size : 20px;
+          padding:30px 0px 20px 300px;
+          font-weight: bold;
+      
+      }
+      footer{
+          background-color: black;
+      }
+      
+      nav{
+          display: inline-block;
+          margin: auto;
+          padding: 10px;
+         transition:transform .2s;
+      }
+      nav .icon{
+        padding:30px 25px 90px 170px;
+    
+      }
+
+
+      
+      nav:hover{
+          transform: scale(0.85);
+      }
+
+
+
+
+      .follow p{
+        padding:10px 0px 10px 670px;
+        font-size: 20px;
+        color:white;
+        }
+        
+        .social p{
+        
+        padding:10px 0px 10px 660px;
+        font-size: 18px;
+        color: rgb(156,122,122);
+        }
+        
+        .navi{
+            margin-left: 300px;
+        }
+        
+        .navi nav i{
+        
+            padding:30px 10px 70px 130px;
+        }
+
+       
+        
+        .dark{
+            background-color: black;
+            padding-top: 20px;
+        } 
+
+        .header{
+
+            padding: 40px 25px 30px 30px;
+        }
+
+        .description{
+            padding:0px 0px 45px 0px;
+            font-size: 20px;
+        }
+
+
+
+      
+
+
+
+
+
+}
+
+
+
+
+
+

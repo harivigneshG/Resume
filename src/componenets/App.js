@@ -3,6 +3,7 @@ import './name.css';
 import Resum from './Resum';
 import Project from './Project';
 import Header from  './Header';
+import Footer from './Footer';
 
     const App=()=>{
         return ( <div>
@@ -21,7 +22,7 @@ import Header from  './Header';
                        </nav>
 
                        <nav> <a href="https://www.instagram.com/harrivignesh/?hl=en" target="_blank" rel="noopener noreferrer">
-                           <i className=" big instagram icon"></i></a></nav>
+                           <i className="big instagram icon"></i></a></nav>
                        <nav> <a href="https://twitter.com/harivigneshG" target="_blank" rel="noopener noreferrer">
                            <i className="big twitter icon"></i></a></nav>
                        
@@ -32,6 +33,7 @@ import Header from  './Header';
                    </div>
                   <Resum />
                   <Project />
+                  <Footer/>
 
 
                   
