@@ -33,7 +33,7 @@ const Project=()=>{
         <p >Video Search</p>
       </div>
       <div className="description">
-        <p >Search and play any youtube video wthout having recommended videos.</p> 
+        <p >Search and play any youtube video without having recommended videos.</p> 
         </div>
 
         <div className="but">
