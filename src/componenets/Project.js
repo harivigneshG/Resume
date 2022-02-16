@@ -18,7 +18,7 @@ const Project=()=>{
        </div>
        <div className="but">
             <a href="https://wallsearch.vercel.app/" target="_blank"rel="noopener noreferrer" >
-                <button   className="ui button basic button">View</button>
+                <button   className="ui button ">View</button>
                 </a>
                 </div>
    
@@ -38,7 +38,7 @@ const Project=()=>{
 
         <div className="but">
          <a href="https://searchtube.vercel.app/" target="_blank" rel="noopener noreferrer">
-             <button className="ui button  basic button">View</button>
+             <button className="ui button ">View</button>
              </a>
          </div>
       

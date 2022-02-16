@@ -8,12 +8,12 @@ return (
     <div className="cover">
         <a name="Resume"></a>
         <div className="circle"><div className="heade">Resume</div> </div>
-        <div className="button">
-             <a href={url} target="_blank" rel="noopener"> <button className="large  ui button ui primary basic button">Download Resume</button></a> 
+        <div className="button" id="but">
+             <a href={url} target="_blank" rel="noopener"> <button className="large  ui button ui green basic button">Download Resume</button></a> 
                         </div>
         <div className="ui grid">
             <div className="row ">
-                <div className="four wide column container"><div className="sk">Skills</div><div className="list"><div>
+                <div className="three wide column container"><div className="sk">Skills</div><div className="list"><div>
                     <li>React</li>
                     <li>Javascript</li>
                     <li>PHP</li>
