@@ -1,4 +1,4 @@
-# Hosting Resume in Vercel Using React framework
+# Hosting Portfolio in Vercel Using React framework
 
 **Site URI**:https://harrivignesh.vercel.app/
 
