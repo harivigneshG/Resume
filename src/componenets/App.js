@@ -4,6 +4,7 @@ import Resum from './Resum';
 import Project from './Project';
 import Header from  './Header';
 import Footer from './Footer';
+import { Analytics } from "@vercel/analytics/react"
 
     const App=()=>{
         return ( <div>
