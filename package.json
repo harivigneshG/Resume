@@ -7,18 +7,18 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.7.0",
-    "@testing-library/react": "^16.1.0",
+    "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.6.0",
     "@vercel/analytics": "^1.5.0",
-    "framer-motion": "^12.24.0",
+    "framer-motion": "^11.15.0",
     "http-proxy-middleware": "^3.0.3",
     "lucide-react": "^0.256.0",
-    "react": "^18.4.0",
-    "react-dom": "^18.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^6.29.0",
-    "react-scripts": "^5.0.2",
-    "react-scroll": "^1.10.0",
-    "web-vitals": "^4.3.0"
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.3",
+    "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,8 +45,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.25",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^3.5.0"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
   }
 }
