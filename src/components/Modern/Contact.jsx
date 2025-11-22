@@ -13,7 +13,7 @@ const Contact = () => {
                     </p>
 
                     <a
-                        href="mailto:harivigneshg@gmail.com" // Assuming email from context or just a placeholder if not known. I'll use a generic one or leave it blank if I don't know. Wait, I don't have his email. I'll check the old code.
+                        href="mailto:harivigneshganesh@gmail.com" // Assuming email from context or just a placeholder if not known. I'll use a generic one or leave it blank if I don't know. Wait, I don't have his email. I'll check the old code.
                         className="px-8 py-4 bg-gradient-to-r from-accent to-python text-white font-bold rounded-lg hover:opacity-90 transition-opacity shadow-lg shadow-accent/20"
                     >
                         Say Hello

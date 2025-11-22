@@ -25,7 +25,7 @@ const Hero = () => {
                             Python & Backend Developer
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-                            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-python">Harivignesh</span>
+                            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-python">Harivignesh G</span>
                         </h1>
                         <p className="text-xl text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
                             Building scalable backend systems and elegant web experiences.
