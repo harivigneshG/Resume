@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter, Instagram, Download, Terminal } from 'lucide-react';
+import ProfileImage from '../ui/ProfileImage';
 
 const Hero = () => {
     const resumeUrl = "https://drive.google.com/file/d/17qcm13TjIfrfdlYaQJsxvBdT9IeUKnM8/view?usp=sharing"; // Kept from old code
@@ -71,9 +72,7 @@ const Hero = () => {
                         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-slate-700 to-slate-600 p-1 relative z-10 overflow-hidden border-4 border-slate-800 shadow-2xl">
                             <div className="w-full h-full bg-slate-800 flex items-center justify-center text-gray-500">
                                 {/* You can replace this img tag with your actual photo */}
-                                <img
-                                    src="https://avatars.githubusercontent.com/u/60092946?v=4"
-                                    alt="Harivignesh"
+                                <ProfileImage
                                     className="w-full h-full object-cover"
                                 />
                             </div>

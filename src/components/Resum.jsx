@@ -2,7 +2,7 @@ import React from "react";
  
 
 const Resum=()=>{
-    const url="https://drive.google.com/file/d/17qcm13TjIfrfdlYaQJsxvBdT9IeUKnM8/view?usp=sharing"
+    const url="https://drive.google.com/file/d/1SbMAUikHWTstJS4_fWSZwYCGYp9gAWsY/view?usp=sharing"
 return (
     <div>
     <div className="cover">

@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter, Mail, Download, ArrowRight } from 'lucide-react';
+import ProfileImage from '../ui/ProfileImage';
 
 const Hero = () => {
-    const resumeUrl = "https://drive.google.com/file/d/17qcm13TjIfrfdlYaQJsxvBdT9IeUKnM8/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/1SbMAUikHWTstJS4_fWSZwYCGYp9gAWsY/view?usp=sharing";
 
     return (
         <section id="hero" className="min-h-screen flex items-center pt-16 pb-12">
@@ -59,9 +60,7 @@ const Hero = () => {
                         className="md:w-2/5 flex justify-center md:justify-end"
                     >
                         <div className="relative w-64 h-64 md:w-80 md:h-80">
-                            <img
-                                src="https://avatars.githubusercontent.com/u/60092946?v=4"
-                                alt="Harivignesh"
+                            <ProfileImage
                                 className="w-full h-full object-cover rounded-full border-2 border-slate-100 dark:border-slate-800 shadow-lg"
                             />
                         </div>
